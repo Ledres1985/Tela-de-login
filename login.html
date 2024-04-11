@@ -1,0 +1,71 @@
+<html>
+
+<style>
+	body{
+    	background-color: #dee;
+    	margin: 0;
+        height: 100vh;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .container{
+    	aling-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .conteudo{
+      	display: flex;
+        flex-direction: column;
+    	background-color: #f0f0f0;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+    .conteudo > form > div{
+    	text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    
+    div > input{
+    	border-style: none;
+        text-align: center;
+        
+    }
+    
+    input#btn{
+   		color: white;
+    	width: 100%;
+        background-color: green;
+        border-style: none;
+    }
+    
+    h2{
+    	margin: 0;
+        font-size: 20px;
+    }
+</style>
+
+<body>
+	<div class="container">
+    	<div class="conteudo">
+        	<form action="" method="get">
+            	<div>
+        			<h2>Login</h2>
+                </div>    
+                <div>
+        			<input type="text" placeholder="usuário">
+                </div>
+                <div>
+            		<input type="password" placeholder="senha">
+                </div>    
+            	<input id="btn" type="submit" value="Entrar">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
